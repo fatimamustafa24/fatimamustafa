@@ -1,9 +1,0 @@
-'''
-39.Given a number, check if it is a multiple of 5 or 7 but not both. Print "Valid" or "Invalid". 
-Example Input: number = 35Expected Output: Invalid
- '''
-number = 35
-if (number % 5 == 0) ^ (number % 7 == 0):
-    print("Valid")
-else:
-    print("Invalid")
